@@ -50,28 +50,30 @@ vertical-align: middle;
 padding-bottom: 20px;
 }
 
-.heroImg1 {
+.leftcontent {
     display: inline-block;
     width: 25%;
     height: 600px;
+    vertical-align: top;
 }
 
-.heroImg2 {
+.rightcontent {
     display: inline-block;
     width: 70%;
     height: 600px;
     padding: 25px;
 }
 
-.profilepic {
-    width: 40%;
-}
-
-.column {
-    flex: 50%;
+.column1 {
+    flex: 40%;
     padding: 5px;
   }
   
+.column2 {
+    flex: 60%;
+    padding: 5px;
+  }
+
 .row {
     display: flex;
 }
@@ -87,6 +89,8 @@ padding-bottom: 20px;
 
 footer {
     background-color: #373738;
+    color: white;
+    padding-left: 20px;
 }
 
 .footertext {
