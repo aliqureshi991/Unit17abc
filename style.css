@@ -1,17 +1,27 @@
-.inline-block {
-    display: inline-block;
+.menugroup {
+    margin: auto;
     vertical-align: top;
+    color: white;
+    height: 72px;
+    display: contents;
+}
+
+.menuitem {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    padding-left: 15px;
 }
 
 .logo {
-    width: 23%;
     padding: 1%;
     text-align: center;
 }
 
 .navigation {
-    width: 73%;
+    width: 0 auto;
     padding: 1%;
+    background-color: black;
 }
 
 ul {
@@ -19,14 +29,41 @@ ul {
     margin-left: auto;
 }
 
+.downloadbutton {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration-color: black;
+    margin-left: 40%;
+}
+
+button {
+    padding: 8px;
+}
+
+.linkedin {
+width: 20px;
+height: 20px;
+display: inline-block;
+vertical-align: middle;
+padding-bottom: 20px;
+}
+
 .heroImg1 {
+    display: inline-block;
+    width: 25%;
+    height: 600px;
+    padding: 1px;
+}
+
+.heroImg2 {
+    display: inline-block;
+    width: 70%;
     height: 600px;
     padding: 25px;
 }
 
-.heroImg2 {
-    height: 600px;
-    padding: 25px;
+.profilepic {
+    width: 20%;
 }
 
 .leftcontent {
